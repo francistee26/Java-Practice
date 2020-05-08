@@ -35,7 +35,7 @@ public class MortgageCalculator {
 
         while (numberOfPaymentsMade <= numberOfPayments) {
             double balance = calculateRemainingMortgage(principal, annualInterest, years);
-            
+
             // formart balance mortgage to currency
             String balanceMortgageFormatted = NumberFormat.getCurrencyInstance().format(balance);
             System.out.println(balanceMortgageFormatted);
