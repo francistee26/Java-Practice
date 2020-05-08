@@ -8,7 +8,7 @@ public class MortgageCalculator {
     private static float monthlyInterest;
     private static short numberOfPayments;
 
-    private static int numberOfPaymentsMade = 0;
+    private static int numberOfPaymentsMade = 1;
 
     public static void main(String[] args) {
         final int principalLowerLimit = 1000;
